@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-header">
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter location" required class="search-input" id="search-input">
+            <input type="submit" value="search" class="search-button">
+        </form>
+    </div>
+    <div class="weather-app">
+        <div class="weather-data">
+            <main>
+         <h1 id="weather-city">South africa</h1>
+            <hr/>
+            <div>
+            <p class="weather-details">
+                <span id="time" class="time">Monday 00:04</span>
+                <div>
+                   <strong> <span class="temperature" id="temperature"></span></strong>
+                    <span class="unit"><strong>°C</strong></span>
+                    <div class="icon" id="icon">
+                        
+                   </div>
+            
+                </div>
+            </p>    
+            </div>
+                 <strong><span class="weather-description" id="weather-description"></span></strong>    
+                 <br>
+                <div class="current">
+                  <span>Humidity : <strong id="current-humidity"></strong></span>
+                  <br>
+                  <span>Windspeed : <strong id="current-windspeed"></strong></span>
+                </div>
+            </p>
+        </main>
+    </div>
+    <br>
+    <footer>
+        This project was coded by <a href="https://github.com/Dlayane-Mat/" target="_blank">
+            Matjila Dlayane 
+        </a> is <a href="https://github.com/Dlayane-Mat/week-8-project" target="_blank">open-sourced on GitHub</a> and 
+        <a href="https://frabjous-sunflower-bae0ec.netlify.app/" target="_blank">
+            hosted on Netlify by
+        </a>
+    </footer>
+    </div>
+  <script src="script.js" ></script>
+</body>
+</html>
