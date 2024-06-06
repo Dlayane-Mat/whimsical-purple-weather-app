@@ -9,18 +9,18 @@ body{
      box-shadow: 0 30px 50px rgba(13, 12, 16, 0.08);
      max-width: 570px;
      margin:15px auto;
-     
-     
+    text-align: center;
  
  }
  .weather-app{
      background-color: rgb(133, 133, 237);
      margin: 0px auto;
-     padding: 24px;
+     padding: 20px;
      border-radius: 17px;
      box-shadow: 0 30px 50px rgba(10, 8, 14, 0.08);
      max-width: 570px;
      color: rgb(209, 207, 207);
+     text-align: center;
  }
  #search-input{
      background-color: rgb(215, 212, 212);
@@ -103,7 +103,7 @@ display: flex;
  }
  .day-one{
     justify-content: space-between;
-    padding: 21px;
+    padding: 26px;
  }
  .weather-forecast{
     display: flex;
