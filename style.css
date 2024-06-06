@@ -7,7 +7,7 @@ body{
      padding: 25px;
      border-radius: 17px;
      box-shadow: 0 30px 50px rgba(13, 12, 16, 0.08);
-     max-width: 450px;
+     max-width: 570px;
      margin:15px auto;
      
      
@@ -19,7 +19,7 @@ body{
      padding: 24px;
      border-radius: 17px;
      box-shadow: 0 30px 50px rgba(10, 8, 14, 0.08);
-     max-width: 452px;
+     max-width: 570px;
      color: rgb(209, 207, 207);
  }
  #search-input{
@@ -50,25 +50,75 @@ body{
     width: 90px;
     padding-left:320px;
     position: relative;
+    text-align: center;
 
  }
  .temperature{
      font-size:48px ;
+     text-align: center;
  }
  .unit{
      font-size: 43px;
      margin-top: 0%;
      margin-bottom: 0%;
+     text-align: center;
  }
  .weather-city{
      font-size: 43px;
      font-weight: 900;
      margin: 0;
+     text-align: center;
  }
  .weather-description{
     font-size: 20px;
+    text-align: center;
  
  }
  .time{
      font-size: large;
+     text-align: center;
+ }
+ .min-temp{
+   font-size: 13px;
+   opacity: 0.7; 
+   text-align: center;
+ }
+ .max-temp{
+    font-size: 13px;
+    text-align: center;
+ }
+ .day-one{
+    opacity: 0.7;
+    text-align: center;
+ }
+ .forecast{
+justify-content: space-around;
+display: flex;
+ }
+ .weather-forecast{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+ }
+ .day-one{
+    justify-content: space-between;
+    padding: 21px;
+ }
+ .weather-forecast{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+ }
+ .max-temp2{
+    font-size :13px;
+    text-align: center;
+ }
+ .min-temp2{
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+ }
+ .footer{
+    text-align: center;
  }
